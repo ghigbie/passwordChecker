@@ -12,7 +12,7 @@ public class Main {
         PasswordEntry user6 = new PasswordEntry();
         PasswordEntry user7 = new PasswordEntry();
         PasswordEntry user8 = new PasswordEntry();
-
+        PasswordEntry user9 = new PasswordEntry();
 
         String pass1 = "a1Bfadak#poklk!";
         String pass2 = "adlkf5&jadkjfkard";
@@ -22,6 +22,7 @@ public class Main {
         String pass6 = "HowAboutThem5s!";
         String pass7 = "1aaaadlkf&jadl#";
         String pass8 = "Aaadf1lkf&jxx";
+        String pass9 = "Aaadf1lkf&jxx123";
 
         user1.setPassword(pass1);
         System.out.println("*******************");
@@ -38,6 +39,8 @@ public class Main {
         user7.setPassword(pass7);
         System.out.println("*******************");
         user8.setPassword(pass8);
+        System.out.println("*******************");
+        user9.setPassword(pass9);
 
         System.out.println("***************************");
         System.out.println("***************************");
@@ -58,6 +61,8 @@ public class Main {
         user7.setPassword2(pass7);
         System.out.println("*******************");
         user8.setPassword2(pass8);
+        System.out.println("*******************");
+        user8.setPassword2(pass9);
 
 
     }
